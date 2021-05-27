@@ -50,7 +50,7 @@ int main()
     if (fp == NULL) 
     { 
         perror("Oh, I'm die, thank you forever");
-        /*exit(EXIT_FAILURE);*/
+        exit(EXIT_FAILURE);
     }
 
     /* Write to file and close it */
