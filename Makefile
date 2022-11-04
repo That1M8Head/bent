@@ -1,2 +1,2 @@
 bent:
-    cc -o bent bent.c
+	cc -o bent bent.c
